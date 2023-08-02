@@ -1,6 +1,4 @@
 <template>
-
-
   <div class="common-layout">
     <el-container>
       <el-header>
@@ -14,7 +12,6 @@
             <el-text tag="b" style="font-size: 28px;">JSON提取SQL工具</el-text>
           </el-col>
           <el-col :span="8">
-            <!--<el-button type="primary" @click="sub">生成SQL</el-button>-->
           </el-col>
           <el-col :span="10">
             <el-button type="primary" @click="openDialog" size="large">生成SQL</el-button>
@@ -352,8 +349,9 @@ const closeDialog = () => {
   height: 600px;
 }
 
-main {
-  padding-top: 0;
+.el-main {
+  padding: 0;
+  margin: 0;
 }
 
 </style>
