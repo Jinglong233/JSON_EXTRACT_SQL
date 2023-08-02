@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: springboot-init
+server:
+  port: 8088
+  servlet:
+    context-path: /api
